@@ -1,0 +1,448 @@
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/common.css" />
+	<link rel="stylesheet" href="css/recruit.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+	<script src="js/common.js"></script>
+	<script src="js/recruit.js"></script>
+</head>
+<body>
+	<header class="header-area header-normal">
+		<div class="header-body">
+			<div class="header-logo">
+				<a href="index.html"><img class="header-logo-image" src="img/common/header-logo.png" /></a>
+			</div>
+			<div class="header-button">
+				<img class="header-button-image" src="img/common/header-web.png" />
+				<p class="header-button-text">WEB予約</p>
+			</div>
+			<div class="header-info">
+				<div class="header-info-tel">
+					<img class="header-info-image" src="img/common/header-tel.png" />
+					<p class="header-info-number">027-210-5070</p>
+				</div>
+				<div class="header-info-holiday">休診：水曜／日・祝</div>
+			</div>
+			<div class="header-nav custom-scroll">
+				<nav class="header-show-nav">
+					<ul class="header-nav-ul">
+						<li class="header-nav-li has-sub" data-menu="aboutus">
+							<p class="header-nav-jpn">当院について</p>
+							<p class="header-nav-eng">ABOUT US</p>
+							<div class="header-hide-area header-aboutus-area">
+								<div class="header-hide-body">
+									<nav class="header-hide-nav">
+										<ul class="header-hide-nav-ul">
+											<li class="header-hide-nav-li">
+												<a href="characteristic.html">
+													<div class="header-hide-nav-image">
+														<image src="img/common/header-hide-1-1.png">
+													</div>
+													<p class="header-hide-nav-text">10コの特徴</p>
+												</a>
+											</li>
+											<li class="header-hide-nav-li">
+												<a href="information.html">
+													<div class="header-hide-nav-image">
+														<image src="img/common/header-hide-1-2.png">
+													</div>
+													<p class="header-hide-nav-text">クリニックのご案内</p>
+												</a>
+											</li>
+											<li class="header-hide-nav-li">
+												<a href="sterilization.html">
+													<div class="header-hide-nav-image">
+														<image src="img/common/header-hide-1-3.png">
+													</div>
+													<p class="header-hide-nav-text">院内感染対策</p>
+												</a>
+											</li>
+											<li class="header-hide-nav-li">
+												<a href="staff.html">
+													<div class="header-hide-nav-image">
+														<image src="img/common/header-hide-1-4.png">
+													</div>
+													<p class="header-hide-nav-text">スタッフのご紹介</p>
+												</a>
+											</li>
+											<li class="header-hide-nav-li">
+												<a href="faq.html">
+													<div class="header-hide-nav-image">
+														<image src="img/common/header-hide-1-5.png">
+													</div>
+													<p class="header-hide-nav-text">よくあるご質問</p>
+												</a>
+											</li>
+										</ul>
+									</nav>
+								</div>
+							</div>
+						</li>
+						<li class="header-nav-li has-sub" data-menu="treatments">
+							<p class="header-nav-jpn">診療のご案内</p>
+							<p class="header-nav-eng">TREATMENTS</p>
+							<div class="header-hide-area header-aboutus-area">
+								<div class="header-hide-body">
+									<nav class="header-hide-nav">
+										<ul class="header-hide-nav-ul">
+											<li class="header-hide-nav-li">
+												<a href="orthodontics.html">
+													<div class="header-hide-nav-image">
+														<image src="img/common/header-hide-2-1.png">
+													</div>
+													<p class="header-hide-nav-text">矯正歯科</p>
+												</a>
+											</li>
+											<li class="header-hide-nav-li">
+												<a href="pediatric_dentistry.html">
+													<div class="header-hide-nav-image">
+														<image src="img/common/header-hide-2-2.png">
+													</div>
+													<p class="header-hide-nav-text">小児歯科</p>
+												</a>
+											</li>
+											<li class="header-hide-nav-li">
+												<a href="preventive_dentistry.html">
+													<div class="header-hide-nav-image">
+														<image src="img/common/header-hide-2-3.png">
+													</div>
+													<p class="header-hide-nav-text">予防歯科</p>
+												</a>
+											</li>
+											<li class="header-hide-nav-li">
+												<a href="oral_surgery.html">
+													<div class="header-hide-nav-image">
+														<image src="img/common/header-hide-2-4.png">
+													</div>
+													<p class="header-hide-nav-text">口腔外科</p>
+												</a>
+											</li>
+											<li class="header-hide-nav-li">
+												<a href="general_dentistry.html">
+													<div class="header-hide-nav-image">
+														<image src="img/common/header-hide-2-5.png">
+													</div>
+													<p class="header-hide-nav-text">一般歯科</p>
+												</a>
+											</li>
+											<li class="header-hide-nav-li">
+												<a href="teeth_whitening.html">
+													<div class="header-hide-nav-image">
+														<image src="img/common/header-hide-2-6.png">
+													</div>
+													<p class="header-hide-nav-text">ホワイトニング</p>
+												</a>
+											</li>
+										</ul>
+									</nav>
+								</div>
+							</div>
+						</li>
+						<li class="header-nav-li">
+							<a href="news.html">
+								<p class="header-nav-jpn">新着情報</p>
+								<p class="header-nav-eng">NEWS&BLOG</p>
+							</a>
+						</li>
+						<li class="header-nav-li">
+							<a href="price.html">
+								<p class="header-nav-jpn">料金表</p>
+								<p class="header-nav-eng">PRICE</p>
+							</a>
+						</li>
+						<li class="header-nav-li">
+							<a href="access.html">
+								<p class="header-nav-jpn">アクセス</p>
+								<p class="header-nav-eng">ACCESS</p>
+							</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+			<div class="header-button-sp">
+			</div>
+			<div class="header-nav-sp  custom-scroll">
+				<p class="header-nav-item-sp has-sub" data-nav="about-us">当院について</p>
+				<div class="header-nav-sub-list header-nav-sub-list-about-us">
+					<a href="characteristic.html"><p class="header-nav-sub-item-sp">10コの特徴</p></a>
+					<a href="information.html"><p class="header-nav-sub-item-sp">クリニックのご案内</p></a>
+					<a href="sterilization.html"><p class="header-nav-sub-item-sp">院内感染対策</p></a>
+					<a href="staff.html"><p class="header-nav-sub-item-sp">スタッフのご紹介</p></a>
+					<a href="faq.html"><p class="header-nav-sub-item-sp">よくあるご質問</p></a>
+				</div>
+				<p class="header-nav-item-sp has-sub" data-nav="treatments">診療のご案内</p>
+				<div class="header-nav-sub-list header-nav-sub-list-treatments">
+					<p class="header-nav-sub-item-sp">診療のご案内</p>
+					<a href="orthodontics.html"><p class="header-nav-sub-item-sp">矯正歯科</p></a>
+					<a href="pediatric_dentistry.html"><p class="header-nav-sub-item-sp">小児歯科</p></a>
+					<a href="preventive_dentistry.html"><p class="header-nav-sub-item-sp">予防歯科</p></a>
+					<a href="oral_surgery.html"><p class="header-nav-sub-item-sp">口腔外科</p></a>
+					<a href="general_dentistry.html"><p class="header-nav-sub-item-sp">一般歯科</p></a>
+					<a href="teeth_whitening.html"><p class="header-nav-sub-item-sp">ホワイトニング</p></a>
+					<a href="food_education.html"><p class="header-nav-sub-item-sp">食育</p></a>
+				</div>
+				<a href="news.html"><p class="header-nav-item-sp">新着情報</p></a>
+				<a href="price.html"><p class="header-nav-item-sp">料金表</p></a>
+				<a href="access.html"><p class="header-nav-item-sp">アクセス</p></a>
+				<a href="faq.html"><p class="header-nav-item-sp">よくあるご質問</p></a>
+				<a href="recruit.html"><p class="header-nav-item-sp">採用情報</p></a>
+				<p class="header-nav-item-sp">WEB予約</p>
+				<a href="privacy_policy.html"><p class="header-nav-item-sp">プライバシーポリシー</p></a>
+			</div>
+		</div>
+	</header>
+	<!-- main-content -->
+	<div class="main-content">
+		<div class="main-title-area">
+			<div class="main-title-body">
+				<div class="main-title-image">
+					<img src="img/recruit/recruit-icon.png" />
+				</div>
+				<div class="main-title-content">
+					<h2>採用情報</h2>
+					<h3>RECRUIT</h3>
+				</div>
+			</div>
+		</div>
+		<div class="main-nav-area">
+			<p class="main-nav-item"><a href="index.html"><img src="img/common/nav-home.png" /></a></p>
+			<p class="main-nav-item">採用情報</p>
+		</div>
+		<div class="form-area">
+			<form>
+				<div class="form-body">
+					<div class="form-step pc-only">
+						<p class="form-step-item"><span class="form-step-number">STEP01</span> 項目の入力</p>
+						<p class="form-step-item"><span class="form-step-number">STEP02</span> 項目内容確認</p>
+						<p class="form-step-item active"><span class="form-step-number">STEP03</span> 送信完了</p>
+					</div>
+					<div class="form-step sp-only">
+						<p class="form-step-item"><span class="form-step-number">STEP01</span><br/>項目の入力</p>
+						<p class="form-step-item"><span class="form-step-number">STEP02</span><br/>項目内容確認</p>
+						<p class="form-step-item active"><span class="form-step-number">STEP03</span><br/>送信完了</p>
+					</div>
+					<div class="form-input">
+						<div class="recruit-title pc-only">ご応募を受け付けました。</div>
+						<div class="recruit-title sp-only">ご応募を<br/>受け付けました。</div>
+						<div class="form-bold">この度は当院ホームページをご利用いただきまして、ありがとうございます。</div>
+						<div class="form-text">内容を確認後、担当者より折り返しご連絡差し上げます。</div>
+						<div class="form-text">3日以上ご返信がない場合、メール未着の可能性がありますので電話にてお問い合わせください。</div>
+					</div>
+					<div class="form-button-area">
+						<div class="form-button-body">
+							<a href="index.html"><div class="orange-button form-button home-button">HOME</div></a>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+	<!-- main-content -->
+	<footer>
+		<div class="footer-link-area">
+			<div class="footer-link-line">
+				<div class="footer-link-item">
+					<a href="characteristic.html">
+						<p class="footer-link-tag">CHARACTERISTIC</p>
+						<div class="footer-link-text">
+							<p class="footer-link-title">10コの特徴</p>
+							<p class="footer-link-content">おおたけ矯正歯科・小児歯科の特徴をご紹介します。</p>
+						</div>
+						<div class="footer-link-image">
+							<p class="img-dummy">仮</p>
+						</div>
+					</a>
+				</div>
+				<div class="footer-link-item">
+					<a href="information.html">
+						<p class="footer-link-tag">CLINIC</p>
+						<div class="footer-link-text">
+							<p class="footer-link-title">クリニックのご案内</p>
+							<p class="footer-link-content">施設・設備をご紹介ご紹介します。</p>
+						</div>
+						<div class="footer-link-image">
+							<p class="img-dummy">仮</p>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="footer-link-line">
+				<div class="footer-link-item">
+					<a href="sterilization.html">
+						<p class="footer-link-tag">STERILIZATION</p>
+						<div class="footer-link-text">
+							<p class="footer-link-title">院内感染対策</p>
+							<p class="footer-link-content">医療安全対策、感染症対策についてご案内しています。</p>
+						</div>
+						<div class="footer-link-image">
+							<p class="img-dummy">仮</p>
+						</div>
+					</a>
+				</div>
+				<div class="footer-link-item">
+					<a href="orthodontics.html">
+						<p class="footer-link-tag">FOR FIRST VISITOR</p>
+						<div class="footer-link-text">
+							<p class="footer-link-title">矯正歯科治療の流れ</p>
+							<p class="footer-link-content">矯正治療の流れをご紹介しています。</p>
+						</div>
+						<div class="footer-link-image">
+							<p class="img-dummy">仮</p>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="footer-link-line">
+				<div class="footer-link-item">
+					<a href="staff.html">
+						<p class="footer-link-tag">STAFF</p>
+						<div class="footer-link-text">
+							<p class="footer-link-title">スタッフのご紹介</p>
+							<p class="footer-link-content">院長のご挨拶と医師紹介を掲載しています。</p>
+						</div>
+						<div class="footer-link-image">
+							<p class="img-dummy">仮</p>
+						</div>
+					</a>
+				</div>
+				<div class="footer-link-item">
+					<a href="faq.html">
+						<p class="footer-link-tag">FAQ</p>
+						<div class="footer-link-text">
+							<p class="footer-link-title">よくあるご質問</p>
+							<p class="footer-link-content">みなさまのよくあるご質問を掲載しています。</p>
+						</div>
+						<div class="footer-link-image">
+							<p class="img-dummy">仮</p>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="footer-link-line">
+				<a href="recruit.html">
+					<div class="footer-link-item footer-link-item-2col">
+						<p class="footer-link-tag">RECRUIT</p>
+						<div class="footer-link-text">
+							<p class="footer-link-title">採用情報</p>
+							<p class="footer-link-content">おおたけ矯正歯科・小児歯科は一緒に働いてくれる仲間を募集しています。</p>
+						</div>
+						<div class="footer-link-image">
+							<p class="img-dummy">仮</p>
+						</div>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="footer-button-area">
+			<h2>ご予約</h2>
+			<h3>RESERVATION</h3>
+			<div class="footer-button-line">
+				<div class="footer-button-item">
+					<p class="footer-button-title">お電話でのご予約</p>
+					<p class="footer-button-image-tel"><img src="img/common/footer-tel.png" /><p>
+					<p class="footer-button-number">027-210-5070</p>
+					<p class="footer-button-content">午前　9:00～12:00</p>
+					<p class="footer-button-content">午後　14:00～16:30</p>
+					<p class="footer-button-holiday">休診：水曜／日・祝</p>
+				</div>
+				<div class="footer-button-item">
+					<p class="footer-button-title">WEBでのご予約</p>
+					<p class="footer-button-image-web"><img src="img/common/footer-web.png" /><p>
+					<p class="footer-button-button">WEB予約</p>
+				</div>
+			</div>
+			<div class="footer-info-line">
+				<div class="footer-info-image"><img src="img/common/footer-logo.png" /></div>
+				<div class="footer-info-content">
+					<table class="footer-info-table">
+						<tr>
+							<td class="th-top">受付時間</td>
+							<td>月</td>
+							<td>火</td>
+							<td>水</td>
+							<td>木</td>
+							<td>金</td>
+							<td>土</td>
+						</tr>
+						<tr>
+							<td>午前　9:00～12:30</td>
+							<td>●</td>
+							<td>●</td>
+							<td>休</td>
+							<td>●</td>
+							<td>●</td>
+							<td>●</td>
+						</tr>
+						<tr>
+							<td>午後　14:00～18:30</td>
+							<td>●</td>
+							<td>●</td>
+							<td>休</td>
+							<td>●</td>
+							<td>●</td>
+							<td>●</td>
+						</tr>
+					</table>
+					<p class="footer-info-text">
+						※最終受付は診療時間終了30分前になります。<br/>
+						※ご予約の変更は前日までにお願いいたします。<br/>
+					</p>
+					<p class="footer-info-text no-mark">
+						なお、お約束時間をやむをえず変更される場合は、お早めにご連絡ください。
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="footer-map-area">
+			<div class="footer-map-body">
+				<div class="footer-map-map">
+					<div class="footer-map-col">
+						<p class="footer-map-title">当院について</p>
+						<p class="footer-map-item"><a href="characteristic.html">10コの特徴</a></p>
+						<p class="footer-map-item"><a href="information.html">クリニックのご案内</a></p>
+						<p class="footer-map-item"><a href="sterilization.html">院内感染対策</a></p>
+						<p class="footer-map-item"><a href="staff.html">スタッフのご紹介</a></p>
+					</div>
+					<div class="footer-map-col">
+						<p class="footer-map-title">診療のご案内</p>
+						<p class="footer-map-item"><a href="orthodontics.html">矯正歯科</a></p>
+						<p class="footer-map-item"><a href="pediatric_dentistry.html">小児歯科</a></p>
+						<p class="footer-map-item"><a href="preventive_dentistry.html">予防歯科</a></p>
+						<p class="footer-map-item"><a href="oral_surgery.html">口腔外科</a></p>
+						<p class="footer-map-item"><a href="general_dentistry.html">一般歯科</a></p>
+						<p class="footer-map-item"><a href="teeth_whitening.html">ホワイトニング</a></p>
+						<p class="footer-map-item"><a href="food_education.html">食育</a></p>
+					</div>
+					<div class="footer-map-col">
+						<p class="footer-map-title"><a href="news.html">新着情報</a></p>
+						<p class="footer-map-title"><a href="price.html">料金表</a></p>
+						<p class="footer-map-title"><a href="access.html">アクセス</a></p>
+						<p class="footer-map-title"><a href="faq.html">よくあるご質問</a></p>
+						<p class="footer-map-title"><a href="recruit.html">採用情報</a></p>
+						<p class="footer-map-title">WEB予約</p>
+						<p class="footer-map-title"><a href="privacy_policy.html">プライバシーポリシー</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="footer-map-company">©OHTAKE DENTAL CLINIC</div>
+			<div class="footer-to-top"></div>
+		</div>
+		<div class="footer-fixed-button-area">
+			<div class="footer-fixed-button-item">
+				<div class="footer-fixed-button-image footer-fixed-button-image-web"><img src="img/common/footer-fixed-button-web.png" /></div>
+				<p class="footer-fixed-button-text">WEB予約</p>
+			</div>
+			<div class="footer-fixed-button-item">
+				<div class="footer-fixed-button-image footer-fixed-button-image-access"><img src="img/common/footer-fixed-button-access.png" /></div>
+				<p class="footer-fixed-button-text">アクセス</p>
+			</div>
+			<div class="footer-fixed-button-item">
+				<div class="footer-fixed-button-image footer-fixed-button-image-tel"><img src="img/common/footer-fixed-button-tel.png" /></div>
+				<p class="footer-fixed-button-text">電話</p>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
